@@ -1,4 +1,6 @@
-@model TodoViewModel //This is a directive telling Razor what model this view will bind to
+@model ToDoViewModel //This is a directive telling Razor what model this view will bind to
+<!-- model is a property - of the view? -->
+@using Humanizer
 
 @{
     ViewData["Title"] = "Manage your todo list";
@@ -21,7 +23,7 @@
                         <input type="checkbox" class="done-checkbox">
                     </td>
                     <td>@item.Title</td>
-                    <td>@item.DueAt</td>
+                    <td>@item.DueAt.Humanize()</td>
                 </tr>
             }
         </table>

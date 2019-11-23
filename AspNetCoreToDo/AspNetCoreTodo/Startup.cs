@@ -8,12 +8,13 @@ using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
-using AspNetCoreTodo.Data;
+using AspNetCoreToDo.Data;
+using AspNetCoreToDo.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace AspNetCoreTodo
+namespace AspNetCoreToDo
 {
     public class Startup
     {
@@ -33,7 +34,13 @@ namespace AspNetCoreTodo
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
-           services.AddRazorPages();
+            services.AddRazorPages();
+
+            /// <summary>
+            ///   Register FakeTodoItemService as the implementation of ITodoItemService.
+            ///   The FakeTodoItemService 'service' is added to the service container as a singleton.
+            /// </summary>
+            services.AddSingleton<IToDoItemService, FakeToDoItemService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

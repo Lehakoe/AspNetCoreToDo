@@ -4,8 +4,23 @@
         <name>AspNetCoreTodo</name>
     </assembly>
     <members>
-        <member name="M:AspNetCoreTodo.Controllers.ToDoController.Index">
+        <member name="M:AspNetCoreToDo.Controllers.ToDoController.Index">
             <summary>Action methods can return views, JSON data or HTTP status codes.</summary>
+        </member>
+        <member name="T:AspNetCoreToDo.Models.ToDoItem">
+            <summary>
+              This is a plain old C#/CLR object (POCO).
+              Represents what an entry/record in the db 
+              (whatever the database is) looks like in C#.
+            </summary>
+        </member>
+        <member name="M:AspNetCoreToDo.Services.IToDoItemService.GetIncompleteItemsAsync">
+            <summary>
+              Task returning ToDoItems will be fired asynchronously.
+              Tasks represent asynchronous jobs. These are run using 
+              threads from the thread pool.
+              Tasks can also be used to retrieve the results of these jobs.
+            </summary>
         </member>
     </members>
 </doc>

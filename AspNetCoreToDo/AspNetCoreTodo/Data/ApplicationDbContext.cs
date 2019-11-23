@@ -4,7 +4,7 @@ using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace AspNetCoreTodo.Data
+namespace AspNetCoreToDo.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
