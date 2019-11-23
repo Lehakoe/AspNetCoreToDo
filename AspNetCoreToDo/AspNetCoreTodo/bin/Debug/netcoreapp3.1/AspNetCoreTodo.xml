@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AspNetCoreTodo</name>
+    </assembly>
+    <members>
+        <member name="M:AspNetCoreTodo.Controllers.ToDoController.Index">
+            <summary>Action methods can return views, JSON data or HTTP status codes.</summary>
+        </member>
+    </members>
+</doc>

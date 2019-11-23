@@ -1,0 +1,86 @@
+Microsoft (R) Build Engine version 16.4.0-preview-19502-03+3af680463 for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Restore completed in 29.17 ms for c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj.
+  You are using a preview version of .NET Core. See: https://aka.ms/dotnet-core-preview
+  AspNetCoreTodo -> c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\bin\Debug\netcoreapp3.1\AspNetCoreTodo.dll
+  AspNetCoreTodo -> c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\bin\Debug\netcoreapp3.1\AspNetCoreTodo.Views.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:05.48
+Microsoft (R) Build Engine version 16.4.0-preview-19502-03+3af680463 for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Restore completed in 81.22 ms for c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj.
+  You are using a preview version of .NET Core. See: https://aka.ms/dotnet-core-preview
+Controllers\HomeController.cs(12,18): warning CS1591: Missing XML comment for publicly visible type or member 'HomeController' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Controllers\HomeController.cs(16,16): warning CS1591: Missing XML comment for publicly visible type or member 'HomeController.HomeController(ILogger<HomeController>)' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Controllers\HomeController.cs(21,30): warning CS1591: Missing XML comment for publicly visible type or member 'HomeController.Index()' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Controllers\HomeController.cs(26,30): warning CS1591: Missing XML comment for publicly visible type or member 'HomeController.Privacy()' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Controllers\HomeController.cs(32,30): warning CS1591: Missing XML comment for publicly visible type or member 'HomeController.Error()' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Controllers\ToDoController.cs(9,18): warning CS1591: Missing XML comment for publicly visible type or member 'ToDoController' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Data\ApplicationDbContext.cs(9,18): warning CS1591: Missing XML comment for publicly visible type or member 'ApplicationDbContext' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Data\ApplicationDbContext.cs(11,16): warning CS1591: Missing XML comment for publicly visible type or member 'ApplicationDbContext.ApplicationDbContext(DbContextOptions<ApplicationDbContext>)' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Data\Migrations\00000000000000_CreateIdentitySchema.cs(6,26): warning CS1591: Missing XML comment for publicly visible type or member 'CreateIdentitySchema' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Data\Migrations\00000000000000_CreateIdentitySchema.cs(8,33): warning CS1591: Missing XML comment for publicly visible type or member 'CreateIdentitySchema.Up(MigrationBuilder)' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Data\Migrations\00000000000000_CreateIdentitySchema.cs(193,33): warning CS1591: Missing XML comment for publicly visible type or member 'CreateIdentitySchema.Down(MigrationBuilder)' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Data\Migrations\00000000000000_CreateIdentitySchema.Designer.cs(15,33): warning CS1591: Missing XML comment for publicly visible type or member 'CreateIdentitySchema.BuildTargetModel(ModelBuilder)' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Models\ErrorViewModel.cs(5,18): warning CS1591: Missing XML comment for publicly visible type or member 'ErrorViewModel' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Models\ErrorViewModel.cs(7,23): warning CS1591: Missing XML comment for publicly visible type or member 'ErrorViewModel.RequestId' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Models\ErrorViewModel.cs(9,21): warning CS1591: Missing XML comment for publicly visible type or member 'ErrorViewModel.ShowRequestId' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Program.cs(12,18): warning CS1591: Missing XML comment for publicly visible type or member 'Program' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Program.cs(14,28): warning CS1591: Missing XML comment for publicly visible type or member 'Program.Main(string[])' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Program.cs(19,36): warning CS1591: Missing XML comment for publicly visible type or member 'Program.CreateHostBuilder(string[])' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Startup.cs(18,18): warning CS1591: Missing XML comment for publicly visible type or member 'Startup' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Startup.cs(20,16): warning CS1591: Missing XML comment for publicly visible type or member 'Startup.Startup(IConfiguration)' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Startup.cs(25,31): warning CS1591: Missing XML comment for publicly visible type or member 'Startup.Configuration' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Startup.cs(28,21): warning CS1591: Missing XML comment for publicly visible type or member 'Startup.ConfigureServices(IServiceCollection)' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Startup.cs(40,21): warning CS1591: Missing XML comment for publicly visible type or member 'Startup.Configure(IApplicationBuilder, IWebHostEnvironment)' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+  AspNetCoreTodo -> c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\bin\Debug\netcoreapp3.1\AspNetCoreTodo.dll
+  AspNetCoreTodo -> c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\bin\Debug\netcoreapp3.1\AspNetCoreTodo.Views.dll
+
+Build succeeded.
+
+Controllers\HomeController.cs(12,18): warning CS1591: Missing XML comment for publicly visible type or member 'HomeController' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Controllers\HomeController.cs(16,16): warning CS1591: Missing XML comment for publicly visible type or member 'HomeController.HomeController(ILogger<HomeController>)' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Controllers\HomeController.cs(21,30): warning CS1591: Missing XML comment for publicly visible type or member 'HomeController.Index()' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Controllers\HomeController.cs(26,30): warning CS1591: Missing XML comment for publicly visible type or member 'HomeController.Privacy()' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Controllers\HomeController.cs(32,30): warning CS1591: Missing XML comment for publicly visible type or member 'HomeController.Error()' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Controllers\ToDoController.cs(9,18): warning CS1591: Missing XML comment for publicly visible type or member 'ToDoController' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Data\ApplicationDbContext.cs(9,18): warning CS1591: Missing XML comment for publicly visible type or member 'ApplicationDbContext' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Data\ApplicationDbContext.cs(11,16): warning CS1591: Missing XML comment for publicly visible type or member 'ApplicationDbContext.ApplicationDbContext(DbContextOptions<ApplicationDbContext>)' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Data\Migrations\00000000000000_CreateIdentitySchema.cs(6,26): warning CS1591: Missing XML comment for publicly visible type or member 'CreateIdentitySchema' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Data\Migrations\00000000000000_CreateIdentitySchema.cs(8,33): warning CS1591: Missing XML comment for publicly visible type or member 'CreateIdentitySchema.Up(MigrationBuilder)' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Data\Migrations\00000000000000_CreateIdentitySchema.cs(193,33): warning CS1591: Missing XML comment for publicly visible type or member 'CreateIdentitySchema.Down(MigrationBuilder)' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Data\Migrations\00000000000000_CreateIdentitySchema.Designer.cs(15,33): warning CS1591: Missing XML comment for publicly visible type or member 'CreateIdentitySchema.BuildTargetModel(ModelBuilder)' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Models\ErrorViewModel.cs(5,18): warning CS1591: Missing XML comment for publicly visible type or member 'ErrorViewModel' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Models\ErrorViewModel.cs(7,23): warning CS1591: Missing XML comment for publicly visible type or member 'ErrorViewModel.RequestId' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Models\ErrorViewModel.cs(9,21): warning CS1591: Missing XML comment for publicly visible type or member 'ErrorViewModel.ShowRequestId' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Program.cs(12,18): warning CS1591: Missing XML comment for publicly visible type or member 'Program' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Program.cs(14,28): warning CS1591: Missing XML comment for publicly visible type or member 'Program.Main(string[])' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Program.cs(19,36): warning CS1591: Missing XML comment for publicly visible type or member 'Program.CreateHostBuilder(string[])' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Startup.cs(18,18): warning CS1591: Missing XML comment for publicly visible type or member 'Startup' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Startup.cs(20,16): warning CS1591: Missing XML comment for publicly visible type or member 'Startup.Startup(IConfiguration)' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Startup.cs(25,31): warning CS1591: Missing XML comment for publicly visible type or member 'Startup.Configuration' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Startup.cs(28,21): warning CS1591: Missing XML comment for publicly visible type or member 'Startup.ConfigureServices(IServiceCollection)' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+Startup.cs(40,21): warning CS1591: Missing XML comment for publicly visible type or member 'Startup.Configure(IApplicationBuilder, IWebHostEnvironment)' [c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj]
+    23 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:22.62
+Microsoft (R) Build Engine version 16.4.0-preview-19502-03+3af680463 for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Restore completed in 30.91 ms for c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\AspNetCoreTodo.csproj.
+  You are using a preview version of .NET Core. See: https://aka.ms/dotnet-core-preview
+  AspNetCoreTodo -> c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\bin\Debug\netcoreapp3.1\AspNetCoreTodo.dll
+  AspNetCoreTodo -> c:\Users\ara\Downloads\LittleAspNetCoreBook\AspNetCoreToDo\AspNetCoreTodo\bin\Debug\netcoreapp3.1\AspNetCoreTodo.Views.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:06.23
