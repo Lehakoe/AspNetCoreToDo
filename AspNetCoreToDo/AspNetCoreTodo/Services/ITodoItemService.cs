@@ -14,5 +14,7 @@ namespace AspNetCoreToDo.Services
         ///   Tasks can also be used to retrieve the results of these jobs.
         /// </summary>
         Task<ToDoItem[]> GetIncompleteItemsAsync();
+
+        Task<bool> AddItemAsync(ToDoItem newItem);
     }
 }

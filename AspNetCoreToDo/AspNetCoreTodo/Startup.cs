@@ -40,7 +40,8 @@ namespace AspNetCoreToDo
             ///   Register FakeTodoItemService as the implementation of ITodoItemService.
             ///   The FakeTodoItemService 'service' is added to the service container as a singleton.
             /// </summary>
-            services.AddSingleton<IToDoItemService, FakeToDoItemService>();
+            //services.AddSingleton<IToDoItemService, FakeToDoItemService>();
+            services.AddScoped<IToDoItemService, ToDoItemService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

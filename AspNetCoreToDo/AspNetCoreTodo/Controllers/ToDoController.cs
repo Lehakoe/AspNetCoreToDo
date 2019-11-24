@@ -37,5 +37,20 @@ namespace AspNetCoreToDo.Controllers
             /// <summary>Bind the model to the view.</summary>
             return View(viewModel);
         }
+
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> AddItem(ToDoItem newItem)
+        {
+            if (!ModelState.IsValid)
+            {
+                return RedirectToAction("Index");
+            }
+            var successful = await _toDoItemService.AddItemAsync(newItem);
+            if (!successful)
+            {
+                return BadRequest("Could not add item.");
+            }
+            return RedirectToAction("Index");
+        }
     }
 }

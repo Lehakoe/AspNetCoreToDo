@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bunny\\Documents\\LittleAspNetCore\\AspNetCoreToDo\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj": {}
+    "c:\\Users\\ara\\Downloads\\LittleAspNetCoreBook\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bunny\\Documents\\LittleAspNetCore\\AspNetCoreToDo\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj": {
+    "c:\\Users\\ara\\Downloads\\LittleAspNetCoreBook\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bunny\\Documents\\LittleAspNetCore\\AspNetCoreToDo\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+        "projectUniqueName": "c:\\Users\\ara\\Downloads\\LittleAspNetCoreBook\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
         "projectName": "AspNetCoreTodo",
-        "projectPath": "C:\\Users\\Bunny\\Documents\\LittleAspNetCore\\AspNetCoreToDo\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
-        "packagesPath": "C:\\Users\\Bunny\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bunny\\Documents\\LittleAspNetCore\\AspNetCoreToDo\\AspNetCoreToDo\\AspNetCoreTodo\\obj\\",
+        "projectPath": "c:\\Users\\ara\\Downloads\\LittleAspNetCoreBook\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+        "packagesPath": "C:\\Users\\ara\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\ara\\Downloads\\LittleAspNetCoreBook\\AspNetCoreToDo\\AspNetCoreTodo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Bunny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ara\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,13 +57,21 @@
               "target": "Package",
               "version": "[3.1.0-preview1.19508.20, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[3.1.0-preview1.19506.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.0-preview1.19506.2, )"
+              "version": "[3.0.1, )"
             }
           },
           "imports": [
@@ -84,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview3-014645\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
         }
       }
     }

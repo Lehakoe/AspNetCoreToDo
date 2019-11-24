@@ -598,7 +598,7 @@
           "buildMultiTargeting/Microsoft.AspnetCore.Identity.UI.targets": {}
         }
       },
-      "Microsoft.CSharp/4.7.0-preview1.19504.10": {
+      "Microsoft.CSharp/4.6.0": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/_._": {}
@@ -665,14 +665,14 @@
           "lib/netstandard1.3/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Design/3.1.0-preview1.19506.2": {
+      "Microsoft.EntityFrameworkCore.Design/3.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.CSharp": "4.7.0-preview1.19504.10",
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.0-preview1.19506.2"
+          "Microsoft.CSharp": "4.6.0",
+          "Microsoft.EntityFrameworkCore.Relational": "3.0.1"
         },
         "compile": {
-          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll": {}
+          "lib/netstandard2.1/_._": {}
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll": {}
@@ -721,10 +721,10 @@
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Sqlite.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/3.1.0-preview1.19506.2": {
+      "Microsoft.EntityFrameworkCore.Tools/3.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "3.1.0-preview1.19506.2"
+          "Microsoft.EntityFrameworkCore.Design": "3.0.1"
         },
         "compile": {
           "lib/netstandard2.1/_._": {}
@@ -1805,10 +1805,10 @@
         "staticwebassets/V4/lib/jquery/dist/jquery.min.map"
       ]
     },
-    "Microsoft.CSharp/4.7.0-preview1.19504.10": {
-      "sha512": "/v+3zrT42mvIcQkoNo2PfMhGo0dQ4q2OnW4lE99HU/m2idK5rDnVay77RTS0E1xcWAoqFjALy7y7X2oiSscpLw==",
+    "Microsoft.CSharp/4.6.0": {
+      "sha512": "kxn3M2rnAGy5N5DgcIwcE8QTePWU/XiYcQVzn9HqTls2NKluVzVSmVWRjK7OUPWbljCXuZxHyhEz9kPRIQeXow==",
       "type": "package",
-      "path": "microsoft.csharp/4.7.0-preview1.19504.10",
+      "path": "microsoft.csharp/4.6.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1831,7 +1831,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "microsoft.csharp.4.7.0-preview1.19504.10.nupkg.sha512",
+        "microsoft.csharp.4.6.0.nupkg.sha512",
         "microsoft.csharp.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
@@ -1945,10 +1945,10 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Design/3.1.0-preview1.19506.2": {
-      "sha512": "rriRHUrRoGzVsYhmBVqCpxZjvn6BsayxDPGeOdM5JsOR9mS99JmCIPp4oUKHx/hfcTnpTh8BFbn15RQs+gxUZw==",
+    "Microsoft.EntityFrameworkCore.Design/3.0.1": {
+      "sha512": "LLFnlQEfRjdfpE5LJ0hW9n9pfEsIu8IzSatij59wSjYCkBnz3nQKNX5oSGJ8R5MuhdFWG01VCLnppUs/rUeclA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.design/3.1.0-preview1.19506.2",
+      "path": "microsoft.entityframeworkcore.design/3.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1956,8 +1956,9 @@
         "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.3.1.0-preview1.19506.2.nupkg.sha512",
-        "microsoft.entityframeworkcore.design.nuspec"
+        "microsoft.entityframeworkcore.design.3.0.1.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.nuspec",
+        "packageIcon.png"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/3.1.0-preview1.19506.2": {
@@ -1998,17 +1999,18 @@
         "microsoft.entityframeworkcore.sqlite.core.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Tools/3.1.0-preview1.19506.2": {
-      "sha512": "RZWcB51lI/O4gYd+Wfuh1DRAf6beG0r+tQNOCf2Fk+/hD+lJZ8fdlHpfT7kvY2snepgvMsHJhvpqYkkISgQMpw==",
+    "Microsoft.EntityFrameworkCore.Tools/3.0.1": {
+      "sha512": "kDv5L/GaXWZVayLjgDRdPEORmUEa1n11dAM3rCod6MpBCJbz4/VJGdOUwjw24GGCCCmRdamVb/5pujz93fAGww==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.tools/3.1.0-preview1.19506.2",
+      "path": "microsoft.entityframeworkcore.tools/3.0.1",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.1/_._",
-        "microsoft.entityframeworkcore.tools.3.1.0-preview1.19506.2.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.3.0.1.nupkg.sha512",
         "microsoft.entityframeworkcore.tools.nuspec",
+        "packageIcon.png",
         "tools/EntityFrameworkCore.PS2.psd1",
         "tools/EntityFrameworkCore.PS2.psm1",
         "tools/EntityFrameworkCore.psd1",
@@ -2572,28 +2574,29 @@
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 3.1.0-preview1.19508.20",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.0-preview1.19508.20",
       "Microsoft.AspNetCore.Identity.UI >= 3.1.0-preview1.19508.20",
+      "Microsoft.EntityFrameworkCore.Design >= 3.0.1",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.0-preview1.19506.2",
-      "Microsoft.EntityFrameworkCore.Tools >= 3.1.0-preview1.19506.2"
+      "Microsoft.EntityFrameworkCore.Tools >= 3.0.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bunny\\.nuget\\packages\\": {},
+    "C:\\Users\\ara\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bunny\\Documents\\LittleAspNetCore\\AspNetCoreToDo\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+      "projectUniqueName": "c:\\Users\\ara\\Downloads\\LittleAspNetCoreBook\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
       "projectName": "AspNetCoreTodo",
-      "projectPath": "C:\\Users\\Bunny\\Documents\\LittleAspNetCore\\AspNetCoreToDo\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
-      "packagesPath": "C:\\Users\\Bunny\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bunny\\Documents\\LittleAspNetCore\\AspNetCoreToDo\\AspNetCoreToDo\\AspNetCoreTodo\\obj\\",
+      "projectPath": "c:\\Users\\ara\\Downloads\\LittleAspNetCoreBook\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+      "packagesPath": "C:\\Users\\ara\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\ara\\Downloads\\LittleAspNetCoreBook\\AspNetCoreToDo\\AspNetCoreTodo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Bunny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ara\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2633,13 +2636,21 @@
             "target": "Package",
             "version": "[3.1.0-preview1.19508.20, )"
           },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.0.1, )"
+          },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[3.1.0-preview1.19506.2, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
-            "version": "[3.1.0-preview1.19506.2, )"
+            "version": "[3.0.1, )"
           }
         },
         "imports": [
@@ -2660,7 +2671,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview3-014645\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
       }
     }
   }
